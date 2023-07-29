@@ -1,3 +1,4 @@
+proxies:
 - name: "新加坡-vless_reality_vision"
     type: vless
     server: 138.2.82.59
