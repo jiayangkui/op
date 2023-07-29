@@ -1,1 +1,128 @@
-00
+- name: "新加坡-vless_reality_vision"
+    type: vless
+    server: 138.2.82.59
+    port: 443
+    uuid: f83630af-ec56-488b-9d4b-72200308f730
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: vio.seeword.one
+    reality-opts:
+      public-key: l0ySFVtUBdih96lUdFEF-wj382DLdkT82OUV9cT3ZWw
+    client-fingerprint: chrome
+ - name: "新加坡_tuic"
+    server: vio.seeword.one
+    type: tuic
+    port: 17953
+    uuid: f83630af-ec56-488b-9d4b-72200308f730
+    password: f83630af-ec56-488b-9d4b-72200308f730
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
+ - name: "澳大利亚-vless_reality_vision"
+    type: vless
+    server: 168.138.8.74
+    port: 443
+    uuid: a75c1cf0-1730-4d9a-afcc-069edf91fbcc
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloud1.seeword.one
+    reality-opts:
+      public-key: dIOVMgUVbYkjLk9xpkeMwexo4Ex2e_4ogWm7iQcQxC4
+    client-fingerprint: chrome
+ - name: "澳大利亚_tuic"
+    server: cloud1.seeword.one
+    type: tuic
+    port: 23100
+    uuid: a75c1cf0-1730-4d9a-afcc-069edf91fbcc
+    password: a75c1cf0-1730-4d9a-afcc-069edf91fbcc
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
+- name: "韩国-vless_reality_vision"
+    type: vless
+    server: 132.226.239.155
+    port: 443
+    uuid: 30d3b56f-21aa-4479-a723-f3291e4d2c34
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloud2.seeword.one
+    reality-opts:
+      public-key: I1SFeRQeWhbaJJ-lqj9PyDs_w503NCB7zL0HAgfHJDg
+    client-fingerprint: chrome
+ - name: "韩国_tuic"
+    server: cloud2.seeword.one
+    type: tuic
+    port: 27328
+    uuid: 30d3b56f-21aa-4479-a723-f3291e4d2c34
+    password: 30d3b56f-21aa-4479-a723-f3291e4d2c34
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
+- name: "美国-vless_reality_vision"
+    type: vless
+    server: 138.2.232.83
+    port: 443
+    uuid: 326818ab-0187-40ea-9fdd-6b7fce0d951c
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloud.seeword.one
+    reality-opts:
+      public-key: 5z1JHM_pXQIJ_xCqcKV3HJXwfRz3JSSfyCfAPSM2Zy8
+    client-fingerprint: chrome
+ - name: "美国_tuic"
+    server: cloud.seeword.one
+    type: tuic
+    port: 14742
+    uuid: 326818ab-0187-40ea-9fdd-6b7fce0d951c
+    password: 326818ab-0187-40ea-9fdd-6b7fce0d951c
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
