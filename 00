@@ -43,7 +43,7 @@ proxies:
     servername: cloud1.seeword.one
     reality-opts:
       public-key: dIOVMgUVbYkjLk9xpkeMwexo4Ex2e_4ogWm7iQcQxC4
-    client-fingerprint: chrome
+    client-fingerprint: chrome 
   - name: "澳大利亚_tuic"
     server: cloud1.seeword.one
     type: tuic
