@@ -1,11 +1,11 @@
 proxies: 
- - name: "新加坡-vless_reality_vision"
-   type: vless
-   server: 138.2.82.59
-   port: 443
-   uuid: f83630af-ec56-488b-9d4b-72200308f730
-   network: tcp
-   tls: true
+  - name: "新加坡-vless_reality_vision"
+    type: vless
+    server: 138.2.82.59
+    port: 443
+    uuid: f83630af-ec56-488b-9d4b-72200308f730
+    network: tcp
+    tls: true
     udp: true
     flow: xtls-rprx-vision
     servername: vio.seeword.one
