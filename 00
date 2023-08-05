@@ -62,7 +62,7 @@ proxies:
     max-open-streams: 100
     ip-version: dual
     smux:
-        enabled: falsee
+       enabled: falsee
  - name: "韩国-vless_reality_vision"
     type: vless
     server: 132.226.239.155
