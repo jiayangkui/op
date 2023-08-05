@@ -44,7 +44,26 @@ proxies:
     reality-opts:
       public-key: dIOVMgUVbYkjLk9xpkeMwexo4Ex2e_4ogWm7iQcQxC4
     client-fingerprint: chrome
- - name: "韩国-vless_reality_vision"
+  - name: "澳大利亚_tuic"
+    server: cloud1.seeword.one
+    type: tuic
+    port: 23100
+    uuid: a75c1cf0-1730-4d9a-afcc-069edf91fbcc
+    password: a75c1cf0-1730-4d9a-afcc-069edf91fbcc
+    alpn:
+     - h3
+    congestion-controller: bbr
+    disable-sni: true
+    reduce-rtt: true
+    fast-open: true
+    heartbeat-interval: 8000
+    request-timeout: 8000
+    max-udp-relay-packet-size: 1500
+    max-open-streams: 100
+    ip-version: dual
+    smux:
+        enabled: false
+  - name: "韩国-vless_reality_vision"
     type: vless
     server: 132.226.239.155
     port: 443
@@ -76,7 +95,7 @@ proxies:
     ip-version: dual
     smux:
         enabled: false
- - name: "美国-vless_reality_vision"
+  - name: "美国-vless_reality_vision"
     type: vless
     server: 138.2.232.83
     port: 443
@@ -108,5 +127,3 @@ proxies:
     ip-version: dual
     smux:
         enabled: false
-
- 
