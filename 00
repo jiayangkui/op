@@ -2,22 +2,22 @@ proxies:
   - name: "新加坡-vless_reality_vision"
     type: vless
     server: 138.2.82.59
-    port: 443
-    uuid: f83630af-ec56-488b-9d4b-72200308f730
+    port: 4325
+    uuid: 5b888c57-6ca5-4c6c-b284-18004b42b9dc
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: vio.seeword.one
+    servername: :cloud.freetime.eu.org
     reality-opts:
-      public-key: l0ySFVtUBdih96lUdFEF-wj382DLdkT82OUV9cT3ZWw
+      public-key: 1WhHdOqP72pKIJMPh_SpcC5PeP81w7e43-ULfWByCmw
     client-fingerprint: chrome
   - name: "新加坡_tuic"
-    server: vio.seeword.one
+    server: cloud.freetime.eu.org
     type: tuic
-    port: 17953
-    uuid: f83630af-ec56-488b-9d4b-72200308f730
-    password: f83630af-ec56-488b-9d4b-72200308f730
+    port: 11619
+    uuid: 5b888c57-6ca5-4c6c-b284-18004b42b9dc
+    password: 5b888c57-6ca5-4c6c-b284-18004b42b9dc
     alpn:
      - h3
     congestion-controller: bbr
