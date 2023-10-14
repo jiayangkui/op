@@ -127,3 +127,9 @@ proxies:
     ip-version: dual
     smux:
         enabled: false
+  - name: "新家坡-singbox_hysteria2"
+    type: hysteria2
+    server: cloud.freetime.eu.org
+    port: 28599
+    password: 5b888c57-6ca5-4c6c-b284-18004b42b9dc
+    sni: cloud.freetime.eu.org
